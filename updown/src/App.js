@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function start(){
+  return( 
+  <div className="content">
+       <header className="header">
+           <h1><a herf="">SOPO</a></h1>
+       
+           <nav className="nav">
+               <ul>
+                   <li><a herf="#">홈</a></li>
+                   <li><a herf="UPandDownMain.js">선배가 후배에게</a></li>
+                   <li><a herf="#">포트폴리오</a></li>
+                   <li><a herf="#">내정보</a></li>
+               </ul>
+           </nav>
+       </header>
+  </div>
+  
+  
+  )
 }
-
-export default App;
