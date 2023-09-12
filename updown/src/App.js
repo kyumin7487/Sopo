@@ -15,6 +15,10 @@ export default function start(){
                </ul>
            </nav>
        </header>
+       <div className="search-container">
+            <input type="text" placeholder="검색" className="search-box" />
+            <button className="search-button"><i className="search Writing">검색</i></button>
+       </div>
   </div>
   
   
