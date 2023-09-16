@@ -12,7 +12,9 @@ Sopo는 게시판 기능과 멘토멘티 기능, 명함공유 기능을 가지�
   <li>잘하는 팀은 ICT융합 엑스코 출전</li>
 </ul>
 <h3>사용언어</h3>
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)](https://developer.mozilla.org/ko/docs/Web/JavaScript)
-[![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white&style=for-the-badge)](https://spring.org/)
-[![Spring](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white&style=for-the-badge)](https://springboot.org/)
+<ul>
+  <li>REACT</li>
+  <li>JavaScript</li>
+  <li>SPRING</li>
+  <li>SPRING BOOT</li>
+</ul>
