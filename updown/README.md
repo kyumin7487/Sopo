@@ -18,6 +18,3 @@ Sopo는 게시판 기능과 멘토멘티 기능, 명함공유 기능을 가지�
   <li>SPRING</li>
   <li>SPRING BOOT</li>
 </ul>
-<h3>WHAT ME</h3>
-I'M FE Developer <br>
-I made a mentoring screen for seniors and juniors using React
