@@ -25,18 +25,21 @@ export default function start(){
                 <span className="title">오늘은 나르샤하는날</span><br></br>
                 <span className="detail">오늘은 나르샤를 해야하지만 축구를 했다 나는 영원한 축구부❤️</span><br></br>
                 <span className="date">2023.09.19</span>
+                <span className="img"><img src={require('./Unknown.jpeg')} alt="이미지"></img></span>
             </div>
             <div className="post-written">
-                <span className="name">김호준</span>
-                <span className="title">오늘은 나르샤하는날</span>
-                <span className="detail">오늘은 나르샤를 해야하지만 축구를 했다 나는 영원한 축구부❤️</span>
+                <span className="name">김호준</span><br></br>
+                <span className="title">오늘은 나르샤하는날</span><br></br>
+                <span className="detail">오늘은 나르샤를 해야하지만 축구를 했다 나는 영원한 축구부❤️</span><br></br>
                 <span className="date">2023.09.19</span>
+                <span className="img"><img src={require('./Unknown.jpeg')} alt="이미지"></img></span>
             </div>
             <div className="post-written">
-                <span className="name">김호준</span>
-                <span className="title">오늘은 나르샤하는날</span>
-                <span className="detail">오늘은 나르샤를 해야하지만 축구를 했다 나는 영원한 축구부❤️</span>
+                <span className="name">김호준</span><br></br>
+                <span className="title">오늘은 나르샤하는날</span><br></br>
+                <span className="detail">오늘은 나르샤를 해야하지만 축구를 했다 나는 영원한 축구부❤️</span><br></br>
                 <span className="date">2023.09.19</span>
+                <span className="img"><img src={require('./Unknown.jpeg')} alt="이미지"></img></span>
             </div>
        </div>
   </div>
