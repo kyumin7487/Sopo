@@ -57,3 +57,32 @@ ul {
 .search-button i {
   color: white;
 }
+
+.post-written {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  height: 250px;
+}
+
+.post-written .name {
+  font-weight: bold;
+  color: #333;
+}
+
+.post-written .title {
+  font-size: 18px;
+  color: #1A9A18;
+}
+
+.post-written .detail {
+  color: #555;
+}
+
+.post-written .date {
+  color: #888;
+}
