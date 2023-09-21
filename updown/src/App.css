@@ -63,6 +63,7 @@ ul {
   padding: 10px;
   margin-bottom: 20px;
   margin-left: 400px;
+  margin-top: 10px;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   width: 1200px;
@@ -76,11 +77,11 @@ ul {
 
 .post-written .title {
   font-size: 18px;
-  color: #1A9A18;
+  color: #000000;
 }
 
 .post-written .detail {
-  color: #555;
+  color: #777;
 }
 
 .post-written .date {
