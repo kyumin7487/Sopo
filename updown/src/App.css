@@ -1,4 +1,4 @@
-.start{
+.Start{
   width: 100%;
   height: 100%;
 }
@@ -87,4 +87,9 @@ ul {
 .post-written .date {
   color: #888;
   white-space: pre-line;
+}
+
+.post-written .img {
+  margin-left: 800px;
+  margin-right: 0px;
 }
