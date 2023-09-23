@@ -1,6 +1,4 @@
 import './App.css';
-import { BrowserRouter as Router, Link, withRouter, Route, Switch, useHistory } from react-router-dom;
-import axios from 'axios';
 export default function start(){
   return( 
   <div className="content">
@@ -9,9 +7,9 @@ export default function start(){
        
            <nav className="nav">
                <ul>
-                   <li><a herf="#">홈</a></li>
-                   <li id="MainTitle"><a herf="UPandDownMain.js">선배가 후배에게</a></li>
-                   <li><a herf="#">포트폴리오</a></li>
+                   <li><a herf="mainpage.js">홈</a></li>
+                   <li id="MainTitle"><a herf="updownmain.js">선배가 후배에게</a></li>
+                   <li><a herf="portfolioMain.js">포트폴리오</a></li>
                    <li><a herf="#">내정보</a></li>
                </ul>
            </nav>
