@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 안녕하세요! SOPO 개발팀 나즌기대치 입니다.  🙋🏻‍♂️
+<img src='https://ifh.cc/g/y2DbfN.jpg' border='0'></a>
+<br><br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# OUR PROJECT! 
+## 🕰️ 2023.08.22. ~ 2023.11.08.
+## 🧑‍💻 MEMBER
+### 🌐 FRONT 
+- [이해준](https://github.com/ftery0)
+- [배채희](https://github.com/je355)
+- [전우진](https://github.com/greenfrog616)
+- [박규민](https://github.com/kyumin7487)
 
-## Available Scripts
+### 🔙 BACK 
+- [김가영](https://github.com/GayeongKimm)
+- [김호준](https://github.com/alexipharmical)
 
-In the project directory, you can run:
+### 🎨 DESIGN
+- [이해준](https://github.com/ftery0)
+- [배채희](https://github.com/je355)
+<br><br/>
 
-### `npm start`
+## 💻 WHAT WE MADE
+### 🏫 BACKGROUND 
+**대구소프트웨어마이스터고 재학생**을 상대로 한 결과,
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**정보를 알기 어렵다, 적응이 힘들다, 대회에 함께 나갈 사람을 구하기 어렵다**라는 높은 응답률을 보였습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+그에 따라 저희는 이 문제를 해결하기 위하여 **SOPO** 서비스를 개발하게 되었습니다.
 
-### `npm test`
+### ⭐️ MAIN
+#### 선배가 후배에게
+- 선배가 후배에게 알려주고 싶은 정보를 손쉽게 업로드 할 수 있습니다.
+- 후배, 동기들은 **학교에 따른 내용**으로 손쉽게 정보를 얻을 수 있습니다.
+#### 포트폴리오
+- 선배와 동기들의 포트폴리오를 볼 수 있습니다.
+- 나만의 **포트폴리오를 제작하고, 공유**할 수 있습니다.
+#### 대회
+- 원하는 분야의 학생과 대회에 나가고 싶을 때, 쉽게 구할 수 있습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠️ STACK
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>  <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/>  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📑 SOPO와 나즌기대치에 대해 더 알고 싶다면?
+[나즌기대치의 포트폴리오 보러 가기](https://sparkling-sting-af7.notion.site/SOPO-600a1747126840339ac79278dd44a657?pvs=4)
