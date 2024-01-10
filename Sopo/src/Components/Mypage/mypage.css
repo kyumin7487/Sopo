@@ -1,164 +1,694 @@
-#MainTitle {
-    color: #1A9A18;
-  }
+/* .content{
+  overflow-x: hidden;
+} */
+.real_img {
+  width: 250px;
+  height: 170px;
+}
+.SOPO {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #1a9a18;
+  margin: 0 40px 0 20px;
+}
+.start {
+  width: 100%;
+  height: 100%;
+}
+ .header a:hover {
+  /* 커서 설정*/
+  cursor: pointer;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #ffffff;
+  color: #1a9a18;
+  width: 320%;
+  height: 80px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul li {
+  text-decoration-line: none;
+  font-size: 23px;
+  font-weight: 800;
+  color: #8c8c8c;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 50px;
+  list-style-type: none;
+  justify-content: space-between; /* li 요소에 추가 */
+  display: flex; /* li 요소에 추가 */
+}
 
-  .main {
-    width: 1500px;
-    height: 1500px;
-  }
-  .search1{
-    position: absolute;
-    top: 8%;
-    left: 580px;
-    width: 840px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    border: 1px solid #1A9A18;
-    background: #FFF;
-    z-index: 2;
-  }
-  .post-container::-webkit-scrollbar {
-    display: none;
-  }
-  .post-divider {
-    border-top: 1px solid #ccc;
-    margin: 10px 0; 
-  }
-  .search_icon{
-    position: absolute;
-    cursor: pointer;
-    background-color: #FFF;
-    top: 9px;
-    left: 790px;
-    width: 25px;
-    height: 25px;
-    flex-shrink: 0;
-    border: 1px solid #1A9A18;
-    border-radius: 50%;
-  }
-  .searcg_icon_line{
-    position: absolute;
-    cursor: pointer;
-    top: 35px;
-    left: 809px;
-    background-color: #1A9A18;
-    transform: rotate( 50deg );
-    width: 13px;
-    height: 1px;
-    flex-shrink: 0;
-    stroke-width: 1px;
-    stroke: #1A9A18;
-  }
-  .search_box{
-    position: absolute;
-    outline: none;
-    font-size: 20px;
-    left: 20px;
-    top: 40px;
-    border: none;
-    width: 750px;
-    height: 40px;
-    display: flex;
-  }
+.link {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #8c8c8c; /* 기본 회색으로 설정 */
+}
+.link:hover {
+  color: #1a9a18;
+}
+.top {
+  position: relative;
+  align-items: flex-start;
+  margin-top: 120px;
+}
+.top1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0 19px 0 60px;
+  display: inline-block;
+}
+.top2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  display: inline-block;
+}
+.fixbutton {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: #868686;
+  background-color: #f5f5f6;
+  border: none;
+  margin: 30px 19px 50px 60px;
+  margin-top: 7px;
+}
 
-  .post-written {
-    position: relative;
-    border-bottom: 1px solid #888;
-    padding: 10px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    background-color: #fff;
-    width: 1000px;
-    height: 180px;
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .post-written .name {
-    font-weight: bold;
-    font-size: 20px;
-    color: #333;
-  }
-  
-  .post-written .title {
-    font-size: 22px;
-    color: #777;
-  }
-  
-  .post-written .detail {
-    color: #777;
-  }
-  
-  .post-written .date {
-    color: #888;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .post_img{
-    width: 240px;
-    height: 200px;
-    position: absolute;
-    top: 50%; 
-    right: 50px; 
-    transform: translate(0, -55%); 
-    }
-    
-    .post-container {
-      position: absolute;
-      left: 500px;
-      top: 200px;
-      overflow-y: auto; 
-      max-height: calc(100% - 190px); 
-      width: 1200px;
-      height: 1040px;
-    };
+.fixbuttonT {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 40px;
+}
 
-  .post_border{
-    width: 650px;
-    height: 260px;
-  }
+.fixbutton:hover {
+  /* 커서 설정*/
+  cursor: pointer;
+}
+.head {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 0 60px;
+  margin-bottom: 10px;
+}
+.head2 {
+  font-size: 27px;
 
-  .content {
-    width: 1500px;
-    height: 1500px;
-  }
- 
-  .postshow1 {
-    width: 650px;
-    margin-left: -10px;
-  }
+  margin-bottom: 10px;
+}
 
-  .name{
-    color: #000;
+.Readme{
+  margin-top: 150px;
+}
 
+.body2 {
+  display: flex;
+  width: 1570px;
+  height: 100px;
+  background-color: #f5f5f6;
+  border-radius: 10px;
+  margin: 0 60px 0 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.social {
+  margin: 52px 0 0 60px;
+  font-size: 20px;
+  font-weight: 800;
+  position: absolute;
+}
+
+.pT {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.socialp {
+  /* background-color: #F5F5F6; */
+  width: 1570px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.link1 {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #8c8c8c;
+}
+
+.link2{
+  text-decoration: none; /* 밑줄 제거 */
+  position: relative;
+  bottom: 7px;
+  margin-left: 2px;
+  color: #000;
+}
+
+.post1 {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  color: #1a9a18;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.post-write {
+  margin: 0;
+  position: relative;
+  top: 70px;
+
+  margin-top: 25px;
+}
+
+.Zonecontrol {
+  width: 55%;
+  height: 100px;
+}
+
+.post_1::-webkit-scrollbar {
+  display: none;
+}
+
+.post_1 {
+  margin: 60px 0 0 10px;
+  overflow-x: hidden;
+  position: absolute;
+  left: 50px;
+  top: 440px;
+  width: 1430px;
+  height: 400px;
+  margin-left: -40px;
+  margin-top: 180px;
+  /* background-color: #dddddd; */
+}
+
+.post_1 > .post-write {
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+  left: 60px;
+  width: 100%;
+  height: 200px;
+  /* background-color: #8C8C8C; */
+}
+.post_1 > .post-write > .Zonecontrol > .Name {
+  position: relative;
+  top: 5px;
+  color: #000;
   font-family: Inter;
-  font-size: 20px;  
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  }
+}
 
-  .title{
-    color: #8C8C8C;
-
+.post_1 > .post-write > .Zonecontrol > .title {
+  display: block;
+  position: relative;
+  top: 7px;
+  color: #8c8c8c;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
 
-  margin-top: 6px;
-  }
-
-  .detail{
-    color: #8C8C8C;
-
+.post_1 > .post-write > .Zonecontrol > .detail {
+  position: relative;
+  top: 10px;
+  color: #8c8c8c;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  }
+}
+
+.post_1 > .post-write > .Zonecontrol > .date {
+  position: relative;
+  display: block;
+  top: 80px;
+  color: #8c8c8c;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.post_1 > .post-write > .img {
+  position: relative;
+  width: 100px;
+  left: 75%;
+  bottom: 9.5vh;
+}
+/* .post_mainnn{
+  position: absolute;
+  left: 300px;
+} */
+
+
+.pagination {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #73737339;
+}
+
+.pagination-writing{
+  position: absolute;
+  width: 100%;
+  height: 1400px;
+  background-color: #fff;
+  top: 300px;
+  border-radius: 30px 30px 0 0;
+  animation-name: pagination;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+#leave{
+  cursor: pointer;
+}
+.last-pagination{
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+#last-pagination{
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.last-pagination >img{
+  position: absolute;
+  top: 18px;
+  left: 10px;
+}
+.writing{
+  position: absolute;
+  left: 100px;
+  top: 130px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.writing1{
+  position: absolute;
+  left: 100px;
+  top: 260px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.writing2{
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.writing3{
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 150px;
+}
+#major{
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  width: 840px;
+  border: none;
+  border-bottom: 2px solid #1a9a18;
+  outline: none;
+  font-size: 20px;
+}
+#major::placeholder{
+  font-size: 18px;
+}
+.horseman{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 500px;
+  background-color: #1a9a18;
+}
+@keyframes pagination {
+  0% {top: 700px;}
+  100% {top: 200px;}
+}
+.link1 > img{
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.dreamSelect{
+  color: #A7A7A7;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: -25px;
+  margin-top: 30px;
+}
+
+.dreamSelect > .dreamfront{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 27px;
+ 
+}
+.dreamSelect > .dreamfront:hover{
+  cursor: pointer;
+  color: #178915;
+}
+.elsedream{
+  display: inline-block;
+  margin-left: 25px;
+}
+.elsedream:hover{
+  cursor: pointer;
+  color: #178915;
+}
+
+.YearSelect{
+  color: #A7A7A7;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: -150px;
+}
+
+.YearSelect > .Year{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 27px;
+ 
+}
+.YearSelect > .Year:hover{
+  cursor: pointer;
+  color: #178915;
+}
+.elseYear{
+  display: inline-block;
+  margin-left: 25px;
+}
+.elseYear:hover{
+  cursor: pointer;
+  color: #178915;
+}
+.completebutton {
+  position: absolute;
+  bottom: 200px;
+  right: 400px;
+  font-size: 40px;
+  color: #8C8C8C;
+  cursor: pointer;
+  transition: color 0.3s; 
+}
+.horseman > .completebutton:hover {
+  color: #178915; 
+}
+/* 모든 3개 요소가 활성화되었을 때 completebutton 색상 변경 */
+.YearSelect:hover + .dreamSelect1 .dreamfront:hover + .writing2:hover + .completebutton {
+  color: #178915;
+}
+
+.clubSelect{
+  color: #A7A7A7;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 75px;
+  margin-top: 600px;
+}
+
+.clubSelect > .clubB1ND{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 27px;
+ 
+}
+.clubSelect > .clubB1ND:hover{
+  cursor: pointer;
+  color: #178915;
+}
+.elseclub{
+  display: inline-block;
+  margin-left: 25px;
+}
+.elseclub:hover{
+  cursor: pointer;
+  color: #178915;
+}
+
+#git{
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  width: 840px;
+  border: none;
+  border-bottom: 2px solid #1a9a18;
+  outline: none;
+  font-size: 20px;
+  margin-top: 295px;
+}
+#git::placeholder{
+  font-size: 18px;
+}
+
+.writing4 {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 290px;
+}
+.writing5 {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 440px;
+}
+
+#inst{
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  width: 840px;
+  border: none;
+  border-bottom: 2px solid #1a9a18;
+  outline: none;
+  font-size: 20px;
+  margin-top: 440px;
+}
+#inst::placeholder{
+  font-size: 18px;
+}
+
+.writing6 {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 570px;
+}
+
+.Skills{
+  position: absolute;
+  left: 100px;
+  top: 310px;
+  width: 840px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-top: 570px;
+}
+.skills::placeholder{
+  font-size: 18px;
+}
+
+.writing7 {
+  position: absolute;
+  left: 100px;
+  top: 280px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 690px;
+}
+
+#Award{
+  position: absolute;
+  left: 100px;
+  top: 350px;
+  width: 840px;
+  border: none;
+  border-bottom: 2px solid #1a9a18;
+  outline: none;
+  font-size: 20px;
+  margin-top: 685px;
+}
+#Award::placeholder{
+  font-size: 18px;
+}
+
+.writing8 {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 710px;
+}
+
+#kk{
+  position: absolute;
+  left: 100px;
+  top: 450px;
+  width: 840px;
+  border: none;
+  border-bottom: 2px solid #1a9a18;
+  outline: none;
+  font-size: 20px;
+  margin-top: 720px;
+}
+#kk::placeholder{
+  font-size: 18px;
+}
+
+.Year.selected {
+  /* 선택된 경우의 색상전환 */
+  color: #1a9a18;
+}
+
+.elseYear.selected {
+  color: #1a9a18; /* 선택된 경우의 텍스트 색상을 바꾸려면 원하는 색상으로 변경하세요 */
+  /* 다른 스타일 속성들 */
+}
+
+.elsedream.selected {
+  color: #1a9a18; 
+}
+
+.elseclub.selected {
+  color: #1a9a18; 
+}
+
+.elsedream {
+  color: #A7A7A7; 
+}
+
+.Skills.selected {
+  /* 선택된 경우의 색상전환 */
+  color: #1a9a18;
+}
+
+.elseSkills.selected {
+  color: #1a9a18; /* 선택된 경우의 텍스트 색상을 바꾸려면 원하는 색상으로 변경하세요 */
+  /* 다른 스타일 속성들 */
+}
+
+.elseSkills {
+  color: #A7A7A7;
+  font-size: 18px;
+}
+
+.SkillsSelect{
+  color: #A7A7A7;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 75px;
+  margin-top: 250px;
+}
+
+.SkillsSelect > .Skills{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 27px;
+ 
+}
+.SkillsSelect > .Skills:hover{
+  cursor: pointer;
+  color: #178915;
+}
+.elseSkills{
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 20px;
+}
+.elseSkills:hover{
+  cursor: pointer;
+  color: #178915;
+}
